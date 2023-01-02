@@ -13,16 +13,16 @@
           <div class="card">
               <div class="inner-box" id="card">
                 <div class="card-front">
-                    <h2>Put the multiplication number</h2>
+                    <h2>Put your favourite number</h2>
                     <form name="frm" method="post">
                         <input type="number" name="f" class="input-box"
-                        placeholder="Type here" required>
+                        placeholder="input here" required>
 
                         <input type="number" name="s" class="input-box"
-                        placeholder="Type here" required>
+                        placeholder="input here" required>
 
                         <input type="number" name="t" class="input-box"
-                        placeholder="Type here" required>
+                        placeholder="input here" required>
 
                         <input type="submit" name="sub" class="input-box">
                         <br>
@@ -40,26 +40,26 @@
      @$sub   = $_POST['sub'];
 
     if($first > $second && $first > $third  ){
-        echo "First number is greater than any other numbers";
+        echo "<h2> First number is greater than any other numbers </h2>";
     }
     elseif($second > $first && $second > $third ){
-        echo "Second number is greater than all other numbers";
+        echo "<h2>Second number is greater than all other numbers </h2>";
     }
     elseif($third > $first && $third > $second){
-        echo "Third number is greater than all other numbers";
+        echo "<h2>Third number is greater than all other numbers </h2>";
     }
     elseif($third == $first && $third == $second){
-        echo "All numbers are same!!!";   
+        echo "<h1>All numbers are same!!!";   
     }
     elseif($first == $second ){
-        echo "First & second  numbers are same!!!";   
+        echo "<h1>First & second  numbers are same!!! </h1>";   
     }
     elseif($third == $second ){
-        echo "second & third  numbers are same!!!";   
+        echo "<h1>second & third  numbers are same!!! </h1>";   
     }
   
     elseif($third == $first ){
-        echo "first & third  numbers are same!!!";   
+        echo "first & third  numbers are same!!! </h1>";   
     }
 
  
