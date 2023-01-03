@@ -26,7 +26,7 @@
             <br>
         </form>
 
-        
+
              <!-- </div>
         </div>
     </div>
@@ -34,11 +34,11 @@
                                                                                
     <?php
                             
-     $first  = @$x = $_GET['f'];
-     $second = @$x = $_GET['s'];
-     $third  = @$x = $_GET['t'];
+     $first  = @$x = $_REQUEST['f']; // REQUEST method can be use with both get_method & post_method
+     $second = @$x = $_REQUEST['s'];
+     $third  = @$x = $_REQUEST['t'];
       
-     @$sub   = $_GET['sub'];
+     @$sub   = $_REQUEST['sub'];
 
     if($first > $second && $first > $third  ){
         echo "<h2> First number is greater than any other numbers 😃</h2>";
