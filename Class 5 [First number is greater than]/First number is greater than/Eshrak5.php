@@ -62,6 +62,9 @@
     elseif($third == $first ){
         echo "<h1> First  & Third numbers are same!!! 😎 </h1>";   
     }  
+       elseif($third == $first ){
+        echo "<h1> First  & Third numbers are same!!! 😎 </h1>";   
+    }  
  /*           
  In get method :
     Restrictions on data length	Yes, when sending data, the GET method adds the data to the URL; and the length of a URL is limited (maximum URL length is 2048 characters)	No restrictions !!!
