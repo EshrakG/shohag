@@ -24,11 +24,11 @@
                     <input type="submit" name="sub" class="input-box">
                     <br>
                 <br>
-            </div>
+            <!-- </div>
         </div>
     </div>
-</div>                                                                
-                    
+</div>  -->
+                                                                               
     <?php
                             
      $first  = @$x = $_POST['f'];
@@ -68,6 +68,8 @@
 */
 
  ?>
+
+ 
 </body>
 </html>
  
