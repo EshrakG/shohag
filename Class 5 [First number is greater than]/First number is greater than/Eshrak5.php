@@ -14,7 +14,7 @@
      <div class="inner-box" id="card">
         <div class="card-front">
             <h2>Put your favourite number</h2>
-                <form name="frm" method="post">
+                <form name="frm" method="get">
                    <input type="number" name="f" class="input-box"
                               placeholder="input here" required>
                     <input type="number" name="s" class="input-box"
@@ -31,11 +31,11 @@
                                                                                
     <?php
                             
-     $first  = @$x = $_POST['f'];
-     $second = @$x = $_POST['s'];
-     $third  = @$x = $_POST['t'];
+     $first  = @$x = $_GET['f'];
+     $second = @$x = $_GET['s'];
+     $third  = @$x = $_GET['t'];
       
-     @$sub   = $_POST['sub'];
+     @$sub   = $_GET['sub'];
 
     if($first > $second && $first > $third  ){
         echo "<h2> First number is greater than any other numbers 😃</h2>";
