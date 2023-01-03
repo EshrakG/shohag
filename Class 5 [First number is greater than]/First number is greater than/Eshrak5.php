@@ -35,8 +35,8 @@
     <?php
                             
      $first  = @$x = $_REQUEST['f']; // REQUEST method can be use with both get_method & post_method
-     $second = @$x = $_REQUEST['s'];
-     $third  = @$x = $_REQUEST['t'];
+     $second = @$x = $_REQUEST['s']; // In get method we can use URL & It is mostly use for searching
+     $third  = @$x = $_REQUEST['t']; // Post is very secure than get method
       
      @$sub   = $_REQUEST['sub'];
 
