@@ -43,23 +43,23 @@
         echo "<h2> First number is greater than any other numbers </h2>";
     }
     elseif($second > $first && $second > $third ){
-        echo "<h2>Second number is greater than all other numbers </h2>";
+        echo "<h2> Second number is greater than all other numbers </h2>";
     }
     elseif($third > $first && $third > $second){
-        echo "<h2>Third number is greater than all other numbers </h2>";
+        echo "<h2> Third number is greater than many other numbers </h2>";
     }
     elseif($third == $first && $third == $second){
-        echo "<h1>All numbers are same!!!";   
+        echo "<h1> All numbers are same!!! </h1>";   
     }
     elseif($first == $second ){
-        echo "<h1>First & second  numbers are same!!! </h1>";   
+        echo "<h1> First & second  numbers are same!!! </h1>";   
     }
     elseif($third == $second ){
-        echo "<h1>second & third  numbers are same!!! </h1>";   
+        echo "<h1> Second & Third  numbers are same!!! </h1>";   
     }
   
     elseif($third == $first ){
-        echo "first & third  numbers are same!!! </h1>";   
+        echo "<h1> First & third  numbers are same!!! </h1>";   
     }
 
  
