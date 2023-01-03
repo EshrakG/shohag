@@ -29,8 +29,6 @@
                         <br>
                           
 
-
-
     <?php
 
      $first  = @$x = $_POST['f'];
@@ -60,11 +58,7 @@
   
     elseif($third == $first ){
         echo "<h1> First & third  numbers are same!!! </h1>";   
-    }
-
- 
-    
-    
+    }  
             
  ?>
 </body>
