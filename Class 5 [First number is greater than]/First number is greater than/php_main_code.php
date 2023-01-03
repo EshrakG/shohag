@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playing with numbers project </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- 
-<div class="container">
-  <div class="card">
-     <div class="inner-box" id="card">
-        <div class="card-front">
-            <h2>Put your favourite number</h2>
-                <form name="frm" method="get">
-                   <input type="number" name="f" class="input-box"
-                              placeholder="input here" required>
-                    <input type="number" name="s" class="input-box"
-                              placeholder="input here" required>
-                    <input type="number" name="t" class="input-box"
-                              placeholder="input here" required>
-                    <input type="submit" name="sub" class="input-box">
-                <br>
-            <br>
-        </form>
-
-        
-             <!-- </div>
-        </div>
-    </div>
-</div>   -->
-                                                                               
-    <?php
+<?php
                             
      $first  = @$x = $_GET['f'];
      $second = @$x = $_GET['s'];
@@ -71,8 +37,3 @@
 */
 
  ?>
-
- 
-</body>
-</html>
- 
