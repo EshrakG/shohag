@@ -7,26 +7,23 @@
     <title>Playing with numbers project </title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
- 
-<div class="container">
-  <div class="card">
-     <div class="inner-box" id="card">
-        <div class="card-front">
-            <h2>Put your favourite number</h2>
-                <form name="frm" method="get">
-                   <input type="number" name="f" class="input-box"
-                              placeholder="input here" required>
-                    <input type="number" name="s" class="input-box"
-                              placeholder="input here" required>
-                    <input type="number" name="t" class="input-box"
-                              placeholder="input here" required>
-                    <input type="submit" name="sub" class="input-box">
-                <br>
-            <br>
-        </form>
-
-
+  <body>
+        <div class="container">
+          <div class="card">
+            <div class="inner-box" id="card">
+               <div class="card-front">
+                  <h2>Put your favourite number</h2>
+                       <form name="frm" method="get">
+                            <input type="number" name="f" class="input-box"
+                                    placeholder="input here" required>
+                            <input type="number" name="s" class="input-box"
+                                    placeholder="input here" required>
+                            <input type="number" name="t" class="input-box"
+                                    placeholder="input here" required>
+                            <input type="submit" name="sub" class="input-box">
+                        <br>
+                    <br>
+               </form>
              <!-- </div>
         </div>
     </div>
@@ -61,10 +58,8 @@
   
     elseif($third == $first ){
         echo "<h1> First  & Third numbers are same!!! 😎 </h1>";   
-    }  
-       elseif($third == $first ){
-        echo "<h1> First  & Third numbers are same!!! 😎 </h1>";   
-    }  
+    } 
+
  /*           
  In get method :
     Restrictions on data length	Yes, when sending data, the GET method adds the data to the URL; and the length of a URL is limited (maximum URL length is 2048 characters)	No restrictions !!!
@@ -74,8 +69,6 @@
 */
 
  ?>
-
- 
 </body>
 </html>
  
