@@ -12,7 +12,7 @@
           <div class="card">
             <div class="inner-box" id="card">
                <div class="card-front">
-                  <h2>Put your favourite number</h2>
+                  <h2>Put your favourite number (URL)</h2>
                        <form name="frm" method="get">
                             <input type="number" name="f" class="input-box"
                                     placeholder="input here" required>
